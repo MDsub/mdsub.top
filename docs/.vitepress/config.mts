@@ -8,7 +8,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '微博', link: 'https://weibo.com' }
+      { text: '微博', link: 'https://weibo.com/u/2355632031' }
     ],
   },
   rewrites: {
