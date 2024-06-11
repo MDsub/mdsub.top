@@ -10,5 +10,8 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '微博', link: 'https://weibo.com' }
     ],
+  },
+  rewrites: {
+    'collection/:page.md': ':page/index.md'
   }
 })
