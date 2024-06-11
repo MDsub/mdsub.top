@@ -1,5 +1,5 @@
 # Urbance
-![](/image/Urbance.jpg)
+![](/image/Urbance.webp)
 
 ### 📺 剧集资源
 
