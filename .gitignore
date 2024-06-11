@@ -1,6 +1,6 @@
-.vitepress/cache
-.vitepress/dist
+docs/.vitepress/cache
+docs/.vitepress/dist
 **/.DS_Store
 
-node_modules
+docs/node_modules
 .env
