@@ -1,5 +1,5 @@
 # Lastman
-![c27c2f708104e99d80b813d91059b747_original.jpg](/image/lastman.jpg)
+![](/image//image/lastman.jpg)
 ::: tip ✍🏻译制 
 提尔猫 漫迪字幕组
 :::
