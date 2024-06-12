@@ -15,7 +15,7 @@ hero:
       link: https://tutorial.mdsub.top/
     - theme: alt
       text: 📒 文章
-      link: /blog
+      link: /blog/乡下人 第一季译后语
 
 features:
     - icon: 
