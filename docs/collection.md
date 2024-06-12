@@ -3,7 +3,6 @@ layout: home
 title: 作品合集
 hero:
     name: 漫迪&朋友们作品合集
-    tagline: 备用发布页 内容可能有滞后&错漏
 features:
     - icon: 
         src: /icon/Lastman.webp
