@@ -41,10 +41,66 @@ export default defineConfig({
               { text: '关于退出《银翼杀手：黑莲花》译制的说明', link:'/blog/关于退出《银翼杀手：黑莲花》译制的说明'},
             ]
           }
-      ]
+      ],
+      '/': [
+        {
+          text: '资源',
+          items: [
+            { text: 'Lastman', link:'/Lastman'},
+            { text: 'Urbance', link:'/Urbance'},
+            { text: '深空69', link:'/深空69'},
+            { text: '乡下人', link:'/乡下人'},
+            { text: '机器鸡', link:'/机器鸡'},
+            { text: '梦滨城', link:'/梦滨城'},
+            { text: '钉子镇', link:'/钉子镇'},
+            { text: '一家之主', link:'/一家之主'},
+            { text: '东方大学', link:'/东方大学'},
+            { text: '俗世乐土', link:'/俗世乐土'},
+            { text: '克隆高校', link:'/克隆高校'},
+            { text: '冒险兄弟', link:'/冒险兄弟'},
+            { text: '卡通乱炖', link:'/卡通乱炖'},
+            { text: '囧男窘事', link:'/囧男窘事'},
+            { text: '地狱归来', link:'/地狱归来'},
+            { text: '微笑朋友', link:'/微笑朋友'},
+            { text: '恶搞之家', link:'/恶搞之家'},
+            { text: '斧子警察', link:'/斧子警察'},
+            { text: '火星特快', link:'/火星特快'},
+            { text: '玛瑙春分', link:'/玛瑙春分'},
+            { text: '美国老爹', link:'/美国老爹'},
+            { text: '脆莓公园', link:'/脆莓公园'},
+            { text: '荣格危机', link:'/荣格危机'},
+            { text: '超级监狱', link:'/超级监狱'},
+            { text: '边城小镇', link:'/边城小镇'},
+            { text: '野生动物', link:'/野生动物'},
+            { text: '间谍亚契', link:'/间谍亚契'},
+            { text: '鸟人律师', link:'/鸟人律师'},
+            { text: '克里夫兰秀', link:'/克里夫兰秀'},
+            { text: '十岁的汤姆', link:'/十岁的汤姆'},
+            { text: '卡通一箩筐', link:'/卡通一箩筐'},
+            { text: '宠宝话疗团', link:'/宠宝话疗团'},
+            { text: '少年安乐死', link:'/少年安乐死'},
+            { text: '拽妹黛薇儿', link:'/拽妹黛薇儿'},
+            { text: '拾荒者统治', link:'/拾荒者统治'},
+            { text: '教会男孩儿', link:'/教会男孩儿'},
+            { text: '米神山大道', link:'/米神山大道'},
+            { text: '飞出个未来', link:'/飞出个未来'},
+            { text: '大人物拿破仑', link:'/大人物拿破仑'},
+            { text: '杰夫与外星人', link:'/杰夫与外星人'},
+            { text: '蜂妹与狗狗猫', link:'/蜂妹与狗狗猫'},
+            { text: '饮料杯历险记', link:'/饮料杯历险记'},
+            { text: '到了火星被劝退', link:'/到了火星被劝退'},
+            { text: '福是全家福的福', link:'/福是全家福的福'},
+            { text: '银翼杀手：黑莲花', link:'/银翼杀手：黑莲花'},
+            { text: '鱿鱼仔的乡土生活', link:'/鱿鱼仔的乡土生活'},
+            { text: '鸟姐妹的反差生活', link:'/鸟姐妹的反差生活'},
+            { text: '卢卡斯兄弟搬家公司', link:'/卢卡斯兄弟搬家公司'},
+          ]
+        }
+    ],
     },
   },
   rewrites: {
-    'collection/:page.md': ':page/index.md'
+    'collection/:page.md': ':page.md'
   },
+  cleanUrls: true,
 })
