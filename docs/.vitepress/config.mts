@@ -7,8 +7,8 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '首页', link: '/' },
-      { text: '微博', link: 'https://weibo.com/u/2355632031' }
+      { text: '🏠 首页', link: '/' },
+      { text: '👁️ 微博', link: 'https://weibo.com/u/2355632031' }
     ],
     editLink: {
       pattern: 'https://github.com/mdsub/mdsub.top/edit/main/docs/:path',
@@ -16,6 +16,9 @@ export default defineConfig({
     },
     search: {
       provider: 'local'
+    },
+    footer: {
+      message: '<a href="https://spcnwikia.top/">🥚</a>',
     },
 
     docFooter: {
@@ -126,7 +129,10 @@ export default defineConfig({
           { text: '分享「微笑朋友」里几个译名的翻译', link:'/blog/分享「微笑朋友」里几个译名的翻译'},
           { text: '关于退出《银翼杀手：黑莲花》译制的说明', link:'/blog/关于退出《银翼杀手：黑莲花》译制的说明'},
         ]
-       }
+       },
+       { text: '📺 在线MDpan', link:'https://pan.mdsub.top'},
+       { text: '🧰 字幕教程和工具', link:'https://tutorial.mdsub.top/'},
+       { text: '👁️ 微博@漫迪MDsub', link:'https://weibo.com/u/2355632031'},
     ],
   },
   rewrites: {
