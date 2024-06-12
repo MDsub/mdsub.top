@@ -2,10 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "🐻 MDsub",
+  title: "MDsub",
   description: "漫迪字幕组 | We ♥️ Cartoons",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: 'android-chrome-512x512.png',
     nav: [
       { text: '🏠 首页', link: '/' },
       { text: '👁️ 微博', link: 'https://weibo.com/u/2355632031' }
