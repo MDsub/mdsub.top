@@ -7,12 +7,15 @@ hero:
   text: ""
   tagline: 漫迪字幕组 | We ♥️ Cartoons
   actions:
-    - theme: brand
+    - theme: alt
       text: 📺 在线MDpan
       link: https://pan.mdsub.top
     - theme: alt
       text: 🧰 字幕教程和工具
       link: https://tutorial.mdsub.top/
+    - theme: alt
+      text: 📒 文章
+      link: /blog
 
 features:
     - icon: 
