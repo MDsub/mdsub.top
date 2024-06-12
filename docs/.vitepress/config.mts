@@ -10,6 +10,38 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '微博', link: 'https://weibo.com/u/2355632031' }
     ],
+    editLink: {
+      pattern: 'https://github.com/mdsub/mdsub.top/edit/main/docs/:path',
+      text: '在 Github 上编辑此页面'
+    },
+    search: {
+      provider: 'local'
+    },
+
+    docFooter: {
+      prev: '上一页',
+      next: '下一页'
+    },
+
+    outline: {
+      label: '页面导航'
+    },
+
+    lastUpdated: {
+      text: '最后更新于',
+      formatOptions: {
+        dateStyle: 'short',
+        timeStyle: 'medium'
+      }
+    },
+
+    langMenuLabel: '多语言',
+    returnToTopLabel: '回到顶部',
+    sidebarMenuLabel: '菜单',
+    darkModeSwitchLabel: '主题',
+    lightModeSwitchTitle: '切换到浅色模式',
+    darkModeSwitchTitle: '切换到深色模式',
+
     sidebar: [
       { 
         text: '资源',
@@ -99,6 +131,9 @@ export default defineConfig({
   },
   rewrites: {
     'collection/:page.md': ':page.md'
+  },
+  sitemap: {
+    hostname: 'https://mdsub.top'
   },
   cleanUrls: true,
 })
