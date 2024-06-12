@@ -1,0 +1,3 @@
+{
+    "postStartCommand": "cd /workspaces/mdsub.top/docs/ && npm run docs:dev"
+  }
