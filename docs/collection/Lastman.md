@@ -1,3 +1,7 @@
+---
+title: Lastman
+---
+
 # Lastman
 ![](/image/lastman.webp)
 

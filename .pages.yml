@@ -1,7 +1,17 @@
 media:
   input: docs/public
   output: /
-
+  extensions: 
+    - jpg
+    - png
+    - bmp
+    - gif
+    - webp
+    - srt
+    - ass
+    - mkv
+    - mp4
+    - avi
 content:
   - name: homepage
     label: 主页
@@ -11,6 +21,10 @@ content:
     label: 作品资源页面
     path: docs/collection
     type: collection
+    filename: "{fields.title}.md"
+    fields: 
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: body, label: 正文, type: rich-text }
   - name: blog
     label: 文章页面
     path: docs/blog

@@ -1,3 +1,7 @@
+---
+title: Lastman 第二季译后语
+---
+
 # Lastman 第二季译后语
 
 作者: 旗木佐罗
