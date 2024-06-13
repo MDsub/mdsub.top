@@ -4,6 +4,6 @@ media:
 
 content:
   - name: collection
-    label: Posts
+    label: 作品资源页面
     path: docs/collection
     type: collection
