@@ -10,4 +10,4 @@ content:
   - name: homepage
     label: 主页
     path: docs/index.md
-    type: page
+    type: file
