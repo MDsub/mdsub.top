@@ -1,7 +1,7 @@
 # 文件路径
 1. 页面.md文件 `/docs/collection/页面名称.md`
-2. 首页logo `/docs/public/icon/文件名`
-3. 页面头图 `/docs/public/image/文件名`
+2. 首页logo `/docs/public/assets/icon/文件名`
+3. 页面头图 `/docs/public/assets/image/文件名`
 4. 首页 `/docs/index.md`
 
 
@@ -18,7 +18,7 @@
 ## 两个井号是二级标题
 ```
 ## 图片
-![图片描述文本](/docs/public/icon/飞出个未来.webp)
+![图片描述文本](/docs/public/assets/icon/飞出个未来.webp)
 ``` md
 ![图片描述文本 可留空](图片路径 例如/image/lastman.webp)
 ```
@@ -28,7 +28,7 @@
 [显示文本](http://跳转链接/)
 ```
 ## 容器（Vitepress专有）
-![alt text](/docs/public/image/容器.png)
+![alt text](/docs/public/assets/image/容器.png)
 ``` md
 info / tip / warning / danger 对应四种灰蓝黄红四种颜色
 details是折叠容器
@@ -38,7 +38,7 @@ This is an info box.
 :::
 ```
 ## 徽标（Vitepress专有）
-![alt text](/docs/public/image/徽标.png)
+![alt text](/docs/public/assets/image/徽标.png)
 ``` md
 info / tip / warning / danger 对应四种灰蓝黄红四种颜色
 <Badge type="warning" text="漫迪MDsub" />
