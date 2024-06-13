@@ -1,3 +1,9 @@
 media:
   input: docs/public
   output: /
+
+content:
+  - name: collection
+    label: Posts
+    path: docs/collection
+    type: collection
