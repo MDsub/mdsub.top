@@ -1,4 +1,6 @@
-media: docs/public
+media: 
+  input: docs/assets
+  output: assets
 content:
   - name: homepage
     label: 主页
