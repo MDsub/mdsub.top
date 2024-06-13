@@ -5,8 +5,8 @@ layout: home
 hero:
   name: "漫迪小站"
   image: /dohria.webp
-  text: "漫迪&朋友们的作品合集"
-  tagline: We ❤️ Cartoons
+  text: "漫迪&朋友们作品合集"
+  tagline: We ♥️ Cartoons
   actions:
     - theme: alt
       text: 📺 在线MDpan
