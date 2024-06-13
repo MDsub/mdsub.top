@@ -7,3 +7,7 @@ content:
     label: 作品资源页面
     path: docs/collection
     type: collection
+  - name: homepage
+    label: 主页
+    path: docs/index.md
+    type: page
