@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "MDsub",
+  title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
