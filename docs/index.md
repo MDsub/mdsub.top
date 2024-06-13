@@ -21,6 +21,10 @@ hero:
 features:
     - icon: 
         src: /icon/Lastman.webp
+      title: Beef
+      link: /zhong-wen-ming.html
+    - icon: 
+        src: /icon/Lastman.webp
       title: Lastman
       link: /Lastman.html
     - icon: 
