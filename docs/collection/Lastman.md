@@ -3,7 +3,7 @@ title: Lastman
 ---
 
 # Lastman
-![](/image/lastman.webp)
+![](/assets/image/lastman.jpg)
 
 :::  warning 🚨
 如资源失效，请前往 [@漫迪MDsub](https://weibo.com/weheartcartoons) 置顶微博获取度盘压缩包

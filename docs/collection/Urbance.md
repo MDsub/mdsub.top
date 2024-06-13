@@ -3,7 +3,7 @@ title: Urbance
 ---
 
 # Urbance 
-![](/image/Urbance.webp)
+![](/assets/image/Urbance.jpg)
 
 ### 📺 剧集资源
 

@@ -8,7 +8,7 @@ title: Lastman 第二季译后语
 
 原文链接: https://weibo.com/2355632031/MqS5YzHIo
 
-![](/image/Lastman%20第二季译后语.webp)
+![](/assets/image/Lastman%20第二季译后语.jpg)
 
 Lastman漫画于2013至2019年相继出版12卷，衍生自漫画的动画于2016年和2022年播出第一季与第二季，两季出自不同导演之手，各自独到的叙事风格是对这个奇幻宇宙的一鱼两吃，每一味都足够回味。
 
