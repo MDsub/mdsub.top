@@ -11,6 +11,7 @@ content:
     label: 作品资源页面
     path: docs/collection
     type: collection
+    filename: fields.title
   - name: blog
     label: 文章页面
     path: docs/blog
