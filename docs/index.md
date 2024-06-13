@@ -21,10 +21,6 @@ hero:
 features:
     - icon: 
         src: /icon/Lastman.webp
-      title: 测试页面
-      link: /ce-shi-ye-mian-de-biao-ti.html
-    - icon: 
-        src: /icon/Lastman.webp
       title: Lastman
       link: /Lastman.html
     - icon: 
