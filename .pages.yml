@@ -6,7 +6,7 @@ content:
     label: 主页
     path: docs/index.md
     type: file
-  - name: homepage
+  - name: config
     label: 网站配置
     path: docs/.vitepress/config.mts
     type: file
