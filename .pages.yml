@@ -1,17 +1,4 @@
-media:
-  input: docs/public
-  output: /
-  extensions: 
-    - jpg
-    - png
-    - bmp
-    - gif
-    - webp
-    - srt
-    - ass
-    - mkv
-    - mp4
-    - avi
+media: docs/public
 content:
   - name: homepage
     label: 主页
