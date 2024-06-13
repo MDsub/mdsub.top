@@ -1,6 +1,6 @@
 media: 
   input: docs/assets
-  output: assets
+  output: /assets
 content:
   - name: homepage
     label: 主页
