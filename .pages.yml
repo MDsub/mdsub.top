@@ -1,15 +1,19 @@
 media: 
   input: docs/assets
   output: /assets
+  
 content:
   - name: homepage
     label: 主页
     path: docs/index.md
     type: file
+    
   - name: config
     label: 网站配置
     path: docs/.vitepress/config.mts
     type: file
+    format: toml
+    
   - name: collection
     label: 作品资源页面
     path: docs/collection
@@ -18,6 +22,7 @@ content:
     fields: 
       - { name: title, label: 标题, type: string, required: true }
       - { name: body, label: 正文, type: rich-text }
+      
   - name: blog
     label: 文章页面
     path: docs/blog
