@@ -15,7 +15,7 @@ content:
     label: 文章页面
     path: docs/blog
     type: collection
-    filename: fields.title
+    filename: fields.title.md
     fields: 
       - { name: title, label: 标题, type: string, required: true }
       - { name: body, label: 正文, type: rich-text }
