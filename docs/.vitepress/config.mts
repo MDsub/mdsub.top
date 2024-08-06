@@ -127,6 +127,7 @@ export default defineConfig({
           { text: '鱿鱼仔的乡土生活', link:'/鱿鱼仔的乡土生活'},
           { text: '鸟姐妹的反差生活', link:'/鸟姐妹的反差生活'},
           { text: '卢卡斯兄弟搬家公司', link:'/卢卡斯兄弟搬家公司'},
+          { text: '哈哈哈', link:'/drawn-together'},
         ],
       },
       { 
