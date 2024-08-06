@@ -157,6 +157,7 @@ export default defineConfig({
           { text: '关于「漫迪字幕组」组织调整的说明', link:'/blog/关于「漫迪字幕组」组织调整的说明'},
           { text: '分享「微笑朋友」里几个译名的翻译', link:'/blog/分享「微笑朋友」里几个译名的翻译'},
           { text: '关于退出《银翼杀手：黑莲花》译制的说明', link:'/blog/关于退出《银翼杀手：黑莲花》译制的说明'},
+          { text: '谢谢小星星11111', link:'/blog/关于退出《银翼杀手：黑莲花》译制的说明'},
         ]
        },
        { text: '📺 在线MDpan', link:'https://pan.mdsub.top'},
