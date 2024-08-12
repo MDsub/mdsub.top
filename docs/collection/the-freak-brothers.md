@@ -3,7 +3,7 @@ title: the freak brothers
 ---
 # 怪胎兄弟
 
-![](/assets/image/Urbance.jpg)
+![](/assets/image/%E6%80%AA%E8%83%8E%E5%85%84%E5%BC%9F.jpg)
 
 ### 📺 剧集资源
 
