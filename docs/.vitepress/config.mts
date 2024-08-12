@@ -99,6 +99,7 @@ export default defineConfig({
           { text: '斧子警察', link:'/斧子警察'},
           { text: '火星特快', link:'/火星特快'},
           { text: '玛瑙春分', link:'/玛瑙春分'},
+          { text: '怪胎兄弟', link:'/the-freak-brothers'},
           { text: '美国老爹', link:'/美国老爹'},
           { text: '脆莓公园', link:'/脆莓公园'},
           { text: '荣格危机', link:'/荣格危机'},
