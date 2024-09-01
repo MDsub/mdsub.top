@@ -119,6 +119,7 @@ export default defineConfig({
           { text: '米神山大道', link:'/米神山大道'},
           { text: '飞出个未来', link:'/飞出个未来'},
           { text: '大人物拿破仑', link:'/大人物拿破仑'},
+          { text: '外星侵略者吉姆', link:'/invader-zim'},
           { text: '杰夫与外星人', link:'/杰夫与外星人'},
           { text: '蜂妹与狗狗猫', link:'/蜂妹与狗狗猫'},
           { text: '饮料杯历险记', link:'/饮料杯历险记'},
