@@ -86,6 +86,7 @@ export default defineConfig({
           { text: '机器鸡', link:'/机器鸡'},
           { text: '梦滨城', link:'/梦滨城'},
           { text: '钉子镇', link:'/钉子镇'},
+          { text: '波波安', link:'/pepper-ann'},
           { text: '一家之主', link:'/一家之主'},
           { text: '东方大学', link:'/东方大学'},
           { text: '俗世乐土', link:'/俗世乐土'},
