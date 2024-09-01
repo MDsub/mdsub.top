@@ -7,7 +7,7 @@ title: Pepper Ann
 
 ## **📺 剧集资源**
 
-### 第一季 B站在线
+### 第一季 B站在线 <Badge type="tip" text="B站UP主@大袁 译制" />
 
 [S01E01 Ziterella](https://www.bilibili.com/video/BV1Ay4y1g7RN/?spm_id_from=333.999.0.0)
 
@@ -35,6 +35,6 @@ title: Pepper Ann
 
 [S01E22-E23 保护真相 & 坠入邪道](https://www.bilibili.com/video/BV17b421Y7Z2/?spm_id_from=333.999.0.0)
 
-### 第二季 B站在线
+### 第二季 B站在线 <Badge type="tip" text="B站UP主@大袁 译制" />
 
 [S02E01-E02 问答比赛 & 接送风波](https://www.bilibili.com/video/BV12n4y1Q7hY/?spm_id_from=333.999.0.0)
