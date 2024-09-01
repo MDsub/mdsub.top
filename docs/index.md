@@ -173,6 +173,10 @@ features:
         src: /assets/icon/大人物拿破仑.webp
       title: 大人物拿破仑
       link: /大人物拿破仑.html
+    - icon: 
+        src: /assets/icon/InvaderZim.png
+      title: 外星侵略者吉姆
+      link: /invader-zim.html
     - icon: 👽
       title: 杰夫与外星人
       link: /杰夫与外星人.html
