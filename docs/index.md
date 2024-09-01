@@ -55,6 +55,10 @@ features:
       title: 东方大学
       link: /东方大学.html
     - icon: 
+        src: /assets/icon/pepper-ann.png
+      title: 波波安
+      link: /pepper-ann.html
+    - icon: 
         src: /assets/icon/俗世乐土.webp
       title: 俗世乐土
       link: /俗世乐土.html
