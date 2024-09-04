@@ -99,10 +99,6 @@ features:
       title: 玛瑙春分
       link: /玛瑙春分.html
     - icon: 
-        src: /assets/icon/美国老爹.webp
-      title: 玛瑙春分
-      link: /玛瑙春分.html
-    - icon: 
         src: /assets/icon/cannabis.png
       title: 怪胎兄弟
       link: /the-freak-brothers.html
