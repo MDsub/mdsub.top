@@ -172,7 +172,7 @@ features:
     - icon: 
         src: /assets/icon/bobsicon.png
       title: 开心汉堡店
-      link: /Bobs-Burgers.html
+      link: /bobs-burgers.html
     - icon: 
         src: /assets/icon/大人物拿破仑.webp
       title: 大人物拿破仑
