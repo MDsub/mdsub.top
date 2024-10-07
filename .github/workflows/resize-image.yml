@@ -7,12 +7,6 @@
 # For other scenarios, a new PR will be opened if any images are compressed.
 name: Resize image
 on:
-  pull_request:
-    paths:
-      - '**.jpg'
-      - '**.jpeg'
-      - '**.png'
-      - '**.webp'
   workflow_dispatch:
 jobs:
   build:
