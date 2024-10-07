@@ -213,6 +213,10 @@ features:
       title: 鸟姐妹的反差生活
       link: /鸟姐妹的反差生活.html
     - icon: 
+        src: /assets/icon/bradicon.png
+      title: 布拉德尼利神经秀
+      link: /brad-neely.html
+    - icon: 
         src: /assets/icon/卢卡斯兄弟搬家公司.webp
       title: 卢卡斯兄弟搬家公司
       link: /卢卡斯兄弟搬家公司.html
