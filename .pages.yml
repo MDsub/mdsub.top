@@ -20,7 +20,7 @@ content:
     type: collection
     filename: "{fields.title}.md"
     fields: 
-      - { name: title, label: 标题, type: string, required: true }
+      - { name: title, label: 标题, type: text, required: true }
       - { name: body, label: 正文, type: rich-text }
       
   - name: blog
