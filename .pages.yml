@@ -1,5 +1,5 @@
 media: 
-  input: docs/public/assets
+  input: docs/assets
   output: /assets
   
 content:
