@@ -130,6 +130,7 @@ export default defineConfig({
           { text: '银翼杀手：黑莲花', link:'/银翼杀手：黑莲花'},
           { text: '鱿鱼仔的乡土生活', link:'/鱿鱼仔的乡土生活'},
           { text: '鸟姐妹的反差生活', link:'/鸟姐妹的反差生活'},
+          { text: '布拉德尼利神经秀', link:'/brad-neely'},
           { text: '卢卡斯兄弟搬家公司', link:'/卢卡斯兄弟搬家公司'},
         ],
       },
