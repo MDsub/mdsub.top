@@ -5,7 +5,7 @@
 # - at 11 PM every Sunday in anything gets missed with any of the above scenarios
 # For Pull Requests, the images are added to the PR.
 # For other scenarios, a new PR will be opened if any images are compressed.
-name: Compress images
+name: Resize image
 on:
   pull_request:
     paths:
