@@ -16,210 +16,210 @@ hero:
       link: https://tutorial.mdsub.top/
     - theme: alt
       text: 📒 文章
-      link: /blog/乡下人 第一季译后语
+      link: /collection/blog/乡下人 第一季译后语
 
 features:
     - icon: 
         src: /assets/icon/Lastman.webp
       title: Lastman
-      link: /Lastman.html
+      link: /collection/Lastman.html
     - icon: 
         src: /assets/icon/Urbance.webp
       title: Urbance
-      link: /Urbance.html
+      link: /collection/Urbance.html
     - icon: 🐨
       title: 深空69
-      link: /深空69.html
+      link: /collection/深空69.html
     - icon: 
         src: /assets/icon/乡下人.webp
       title: 乡下人
-      link: /乡下人.html
+      link: /collection/乡下人.html
     - icon: 
         src: /assets/icon/机器鸡.webp
       title: 机器鸡
-      link: /机器鸡.html
+      link: /collection/机器鸡.html
     - icon: 
         src: /assets/icon/梦滨城.webp
       title: 梦滨城
-      link: /梦滨城.html
+      link: /collection/梦滨城.html
     - icon: 
         src: /assets/icon/钉子镇.webp
       title: 钉子镇
-      link: /钉子镇.html
+      link: /collection/钉子镇.html
     - icon: 
         src: /assets/icon/一家之主.webp
       title: 一家之主
-      link: /一家之主.html
+      link: /collection/一家之主.html
     - icon: 
         src: /assets/icon/东方大学.webp
       title: 东方大学
-      link: /东方大学.html
+      link: /collection/东方大学.html
     - icon: 
         src: /assets/icon/pepper-ann.png
       title: 波波安
-      link: /pepper-ann.html
+      link: /collection/pepper-ann.html
     - icon: 
         src: /assets/icon/俗世乐土.webp
       title: 俗世乐土
-      link: /俗世乐土.html
+      link: /collection/俗世乐土.html
     - icon: 
         src: /assets/icon/克隆高校.webp
       title: 克隆高校
-      link: /克隆高校.html
+      link: /collection/克隆高校.html
     - icon: 
         src: /assets/icon/冒险兄弟.webp
       title: 冒险兄弟
-      link: /冒险兄弟.html
+      link: /collection/冒险兄弟.html
     - icon: 
         src: /assets/icon/卡通乱炖.webp
       title: 卡通乱炖
-      link: /卡通乱炖.html
+      link: /collection/卡通乱炖.html
     - icon: 
         src: /assets/icon/囧男窘事.webp
       title: 囧男窘事
-      link: /囧男窘事.html
+      link: /collection/囧男窘事.html
     - icon: 😈
       title: 地狱归来
-      link: /地狱归来.html
+      link: /collection/地狱归来.html
     - icon: 
         src: /assets/icon/微笑朋友.webp
       title: 微笑朋友
-      link: /微笑朋友.html
+      link: /collection/微笑朋友.html
     - icon: 
         src: /assets/icon/恶搞之家.webp
       title: 恶搞之家
-      link: /恶搞之家.html
+      link: /collection/恶搞之家.html
     - icon: 🪓
       title: 斧子警察
-      link: /斧子警察.html
+      link: /collection/斧子警察.html
     - icon: 🪐
       title: 火星特快
-      link: /火星特快.html
+      link: /collection/火星特快.html
     - icon: 💎
       title: 玛瑙春分
-      link: /玛瑙春分.html
+      link: /collection/玛瑙春分.html
     - icon: 
         src: /assets/icon/cannabis.png
       title: 怪胎兄弟
-      link: /the-freak-brothers.html
+      link: /collection/the-freak-brothers.html
     - icon: 
         src: /assets/icon/脆莓公园.webp
       title: 脆莓公园
-      link: /脆莓公园.html
+      link: /collection/脆莓公园.html
     - icon: 
         src: /assets/icon/荣格危机.webp
       title: 荣格危机
-      link: /荣格危机.html
+      link: /collection/荣格危机.html
     - icon: 
         src: /assets/icon/超级监狱.webp
       title: 超级监狱
-      link: /超级监狱.html
+      link: /collection/超级监狱.html
     - icon: 
         src: /assets/icon/边城小镇.webp
       title: 边城小镇
-      link: /边城小镇.html
+      link: /collection/边城小镇.html
     - icon: 🐬
       title: 野生动物
-      link: /野生动物.html
+      link: /collection/野生动物.html
     - icon: 
         src: /assets/icon/间谍亚契.webp
       title: 间谍亚契
-      link: /间谍亚契.html
+      link: /collection/间谍亚契.html
     - icon: 
         src: /assets/icon/鸟人律师.webp
       title: 鸟人律师
-      link: /鸟人律师.html
+      link: /collection/鸟人律师.html
     - icon: 
         src: /assets/icon/克里夫兰秀.webp
       title: 克里夫兰秀
-      link: /克里夫兰秀.html
+      link: /collection/克里夫兰秀.html
     - icon: 
         src: /assets/icon/十岁的汤姆.webp
       title: 十岁的汤姆
-      link: /十岁的汤姆.html
+      link: /collection/十岁的汤姆.html
     - icon: 
         src: /assets/icon/卡通一箩筐.webp
       title: 卡通一箩筐
-      link: /卡通一箩筐.html
+      link: /collection/卡通一箩筐.html
     - icon: 
         src: /assets/icon/宠宝话疗团.webp
       title: 宠宝话疗团
-      link: /宠宝话疗团.html
+      link: /collection/宠宝话疗团.html
     - icon: 
         src: /assets/icon/少年安乐死.webp
       title: 少年安乐死
-      link: /少年安乐死.html
+      link: /collection/少年安乐死.html
     - icon: 
         src: /assets/icon/拽妹黛薇儿.webp
       title: 拽妹黛薇儿
-      link: /拽妹黛薇儿.html
+      link: /collection/拽妹黛薇儿.html
     - icon: 
         src: /assets/icon/拾荒者统治.webp
       title: 拾荒者统治
-      link: /拾荒者统治.html
+      link: /collection/拾荒者统治.html
     - icon: 
         src: /assets/icon/教会男孩儿.webp
       title: 教会男孩儿
-      link: /教会男孩儿.html
+      link: /collection/教会男孩儿.html
     - icon: 
         src: /assets/icon/米神山大道.webp
       title: 米神山大道
-      link: /米神山大道.html
+      link: /collection/米神山大道.html
     - icon: 
         src: /assets/icon/飞出个未来.webp
       title: 飞出个未来
-      link: /飞出个未来.html
+      link: /collection/飞出个未来.html
     - icon: 
         src: /assets/icon/bobsicon.png
       title: 开心汉堡店
-      link: /bobs-burgers.html
+      link: /collection/bobs-burgers.html
     - icon: 
         src: /assets/icon/大人物拿破仑.webp
       title: 大人物拿破仑
-      link: /大人物拿破仑.html
+      link: /collection/大人物拿破仑.html
     - icon: 👽
       title: 杰夫与外星人
-      link: /杰夫与外星人.html
+      link: /collection/杰夫与外星人.html
     - icon: 
         src: /assets/icon/蜂妹与狗狗猫.webp
       title: 蜂妹与狗狗猫
-      link: /蜂妹与狗狗猫.html
+      link: /collection/蜂妹与狗狗猫.html
     - icon: 
         src: /assets/icon/饮料杯历险记.webp
       title: 饮料杯历险记
-      link: /饮料杯历险记.html
+      link: /collection/饮料杯历险记.html
     - icon: 
         src: /assets/icon/到了火星被劝退.webp
       title: 到了火星被劝退
-      link: /到了火星被劝退.html
+      link: /collection/到了火星被劝退.html
     - icon: 
         src: /assets/icon/福是全家福的福.webp
       title: 福是全家福的福
-      link: /福是全家福的福.html
+      link: /collection/福是全家福的福.html
     - icon: 
         src: /assets/icon/InvaderZim.png
       title: 外星侵略者吉姆
-      link: /invader-zim.html
+      link: /collection/invader-zim.html
     - icon: 
         src: /assets/icon/银翼杀手：黑莲花.webp
       title: 银翼杀手：黑莲花
-      link: /银翼杀手：黑莲花.html
+      link: /collection/银翼杀手：黑莲花.html
     - icon: 
         src: /assets/icon/鱿鱼仔的乡土生活.gif
       title: 鱿鱼仔的乡土生活
-      link: /鱿鱼仔的乡土生活.html
+      link: /collection/鱿鱼仔的乡土生活.html
     - icon: 
         src: /assets/icon/鸟姐妹的反差生活.webp
       title: 鸟姐妹的反差生活
-      link: /鸟姐妹的反差生活.html
+      link: /collection/鸟姐妹的反差生活.html
     - icon: 
         src: /assets/icon/bradicon.png
       title: 布拉德尼利神经秀
-      link: /brad-neely.html
+      link: /collection/brad-neely.html
     - icon: 
         src: /assets/icon/卢卡斯兄弟搬家公司.webp
       title: 卢卡斯兄弟搬家公司
-      link: /卢卡斯兄弟搬家公司.html
+      link: /collection/卢卡斯兄弟搬家公司.html
 
 ---
 

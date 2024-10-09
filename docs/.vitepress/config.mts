@@ -15,11 +15,11 @@ export default defineConfig({
       contentDirs: [
         {
           path: 'collection',
-          title: '作品'
+          title: '漫迪和朋友们的作品'
         },
         { 
           path: 'blog',
-          title: 'blog'
+          title: '文章'
         },
       ], 
       useFrontmatter: true,
