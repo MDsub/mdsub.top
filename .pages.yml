@@ -22,7 +22,7 @@ content:
     fields: 
       - { name: title, label: 译名, type: string, required: true }
       - { name: origin-title, label: 原名, type: string, required: true }
-      - { name: icon-src, label: 图片图标, type: image, required: false }
+      - { name: icon-src, label: 图片图标(优先), type: image, required: false }
       - { name: icon, label: emoji图标, type: string, required: false }
       - { name: body, label: 正文, type: rich-text }
       
