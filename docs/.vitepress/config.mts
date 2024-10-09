@@ -5,9 +5,9 @@ export default defineConfig({
   title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
 
-  //排除collection目录，构建时ln /collection/* .
+  //排除collection目录，构建时ln collection/* .
   //此步骤用于解决旧链接失效问题
-  srcExclude: ['/collection/*'],
+  srcExclude: ['collection/*'],
 
   // 主题配置
   themeConfig: {
