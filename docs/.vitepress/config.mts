@@ -1,26 +1,31 @@
 import { defineConfig } from 'vitepress'
-import AutoSidebar from 'vite-plugin-vitepress-auto-sidebar';
+import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 export default defineConfig({
 
   // 元信息
   title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
-
-  vite: {
-    plugins: [
-      // add plugin
-      AutoSidebar({
-        path: '/',
-        collapsed: true,
-        titleFromFile: true,
-        ignoreIndexItem: true,
-      })
-    ]
-  },
-
+  
   // 主题配置
   themeConfig: {
     
+    // 自动侧边栏
+    sidebar: getSidebar({ 
+      contentRoot: '/', 
+      contentDirs: [
+        {
+          path: 'collection',
+          title: '作品'
+        },
+        { 
+          path: 'blog',
+          title: 'blog'
+        },
+      ], 
+      useFrontmatter: true,
+      collapsible: true, 
+      collapsed: true }),
+
     // 页面配置
     logo: 'android-chrome-512x512.png',
     nav: [
