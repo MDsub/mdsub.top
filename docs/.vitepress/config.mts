@@ -5,6 +5,10 @@ export default defineConfig({
   title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
 
+  //排除collection目录，构建时ln /collection/* .
+  //此步骤用于解决旧链接失效问题
+  srcExclude: ['/collection/*'],
+
   // 主题配置
   themeConfig: {
     
@@ -171,9 +175,9 @@ export default defineConfig({
   },
 
   // 重定向 去除链接中的*/collection以保证旧微博链接可用
-  rewrites: {
-    'collection/:page.md': ':page.md'
-  },
+  // rewrites: {
+  //   'collection/:page.md': ':page.md'
+  // },
 
   // sitemap
   sitemap: {
