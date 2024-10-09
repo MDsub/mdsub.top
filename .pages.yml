@@ -20,8 +20,10 @@ content:
     type: collection
     filename: "{fields.origin-title}.md"
     fields: 
-      - { name: title, label: 译名（前台显示）, type: string, required: true }
-      - { name: origin-title, label: 原名(用于文件名和链接 必须英文字符), type: string, required: true }
+      - { name: title, label: 译名, type: string, required: true }
+      - { name: origin-title, label: 原名, type: string, required: true }
+      - { name: 图标（图片）, label: 译名, type: image, required: false }
+      - { name: 图标（emoji）, label: 译名, type: string, required: false }
       - { name: body, label: 正文, type: rich-text }
       
   - name: blog

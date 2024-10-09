@@ -1,7 +1,7 @@
 ---
 title: Lastman
-icon-src: /assets/icon/lastman.webp
-icon:
+icon-src: /assets/icon/Lastman.webp
+icon: ☹️
 ---
 
 # Lastman

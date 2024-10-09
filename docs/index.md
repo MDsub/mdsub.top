@@ -19,7 +19,7 @@ features:
   - title: Lastman
     link: /collection/Lastman
     icon:
-      src: /assets/icon/lastman.webp
+      src: /assets/icon/Lastman.webp
   - title: Urbance
     link: /collection/Urbance
     icon:
