@@ -1,5 +1,6 @@
 ---
-title: invader zim
+title: 外星侵略者吉姆
+origin-title: invader zim
 ---
 # 外星侵略者吉姆
 

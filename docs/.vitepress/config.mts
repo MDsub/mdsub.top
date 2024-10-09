@@ -66,10 +66,10 @@ export default defineConfig({
       }
     },
 
-    // 中文化
+    // disable docfooter
     docFooter: {
-      prev: '上一页',
-      next: '下一页'
+      prev: false,
+      next: false
     },
 
     outline: {
@@ -93,11 +93,6 @@ export default defineConfig({
 
   // end of theme config
   },
-
-  // 重定向 去除链接中的*/collection以保证旧微博链接可用
-  // rewrites: {
-  //   'collection/:page.md': ':page.md'
-  // },
 
   // sitemap
   sitemap: {

@@ -1,5 +1,6 @@
 ---
-title: Brad Neely
+title: 布拉德尼利神经秀
+origin-title: Brad Neely
 ---
 # 布拉德尼利神经秀
 

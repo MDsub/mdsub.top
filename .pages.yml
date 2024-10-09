@@ -18,9 +18,10 @@ content:
     label: 作品资源页面
     path: docs/collection
     type: collection
-    filename: "{fields.title}.md"
+    filename: "{fields.origin-title}.md"
     fields: 
-      - { name: title, label: 标题, type: string, required: true }
+      - { name: title, label: 译名（前台显示）, type: string, required: true }
+      - { name: origin-title, label: 原名(用于文件名和链接 必须英文字符), type: string, required: true }
       - { name: body, label: 正文, type: rich-text }
       
   - name: blog

@@ -1,5 +1,6 @@
 ---
-title: Pepper Ann
+title: 波波安
+origin-title: Pepper Ann
 ---
 # 波波安
 

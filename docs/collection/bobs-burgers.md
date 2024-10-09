@@ -1,5 +1,6 @@
 ---
-title: Bobs Burgers
+title: 开心汉堡店
+origin-title: Bobs Burgers
 ---
 # 开心汉堡店
 

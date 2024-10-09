@@ -1,5 +1,6 @@
 ---
-title: the freak brothers
+title: 怪胎兄弟
+origin-title: the freak brothers
 ---
 # 怪胎兄弟
 
