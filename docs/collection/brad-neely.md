@@ -1,6 +1,8 @@
 ---
 title: 布拉德尼利神经秀
 origin-title: Brad Neely
+icon:
+icon-src: /assets/icon/bradicon.png
 ---
 # 布拉德尼利神经秀
 

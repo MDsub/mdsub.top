@@ -1,5 +1,7 @@
 ---
 title: Lastman
+icon-src: /assets/icon/lastman.webp
+icon:
 ---
 
 # Lastman

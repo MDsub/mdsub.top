@@ -1,6 +1,8 @@
 ---
 title: 开心汉堡店
 origin-title: Bobs Burgers
+icon:
+icon-src: /assets/icon/bobsicon.png
 ---
 # 开心汉堡店
 

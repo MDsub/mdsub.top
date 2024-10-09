@@ -104,18 +104,20 @@ export default defineConfig({
       noExternal: ['vitepress-plugin-auto-sidebar'] // 允许外部模块使用
     },
     plugins: [
-      // 插件：自动更新 index.md
       {
         name: 'update-index-features',
 
-        // 监听开发模式下的文件更新
+        // 提早执行 updateFeatures
+        config() {
+          updateFeatures();  // 这里提早调用
+        },
+
         handleHotUpdate({ file }) {
           if (file.endsWith('.md') && file.includes('/collection/')) {
             updateFeatures();
           }
         },
 
-        // 构建结束时自动更新 index.md
         buildEnd() {
           updateFeatures();
         }
@@ -127,7 +129,6 @@ export default defineConfig({
 // 使用 import.meta.url 获取当前目录路径
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-// 自动抓取 /collection 下的 frontmatter 并更新 /index.md
 function updateFeatures() {
   const collectionDir = path.join(__dirname, '../collection');
   const indexFilePath = path.join(__dirname, '../index.md');
@@ -139,12 +140,24 @@ function updateFeatures() {
     const fileContent = fs.readFileSync(filePath, 'utf-8');
     const { data } = matter(fileContent);
 
+    let icon = '';
+    if (data['icon-src'] && data['icon-src'].trim()) {
+      // 当 icon-src 不为空时，使用对象格式
+      icon = {
+        src: data['icon-src']
+      };
+    } else if (data.icon && data.icon.trim()) {
+      // 当 icon 存在时，使用 icon 的值
+      icon = data.icon;
+    } else {
+      // 当 icon-src 和 icon 都为空时，使用 ❤️
+      icon = '🐻';
+    }
+
     return {
-      title: data['origin-title'] || data['title'],
+      title: data['title'],
       link: `/collection/${file.replace('.md', '')}`,
-      icon: {
-        src: data.icon || ''
-      }
+      icon: icon // 设置 icon
     };
   });
 

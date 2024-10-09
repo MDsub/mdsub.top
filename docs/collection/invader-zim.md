@@ -1,6 +1,8 @@
 ---
 title: 外星侵略者吉姆
 origin-title: invader zim
+icon:
+icon-src: /assets/icon/InvaderZim.png
 ---
 # 外星侵略者吉姆
 
