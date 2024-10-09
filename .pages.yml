@@ -9,8 +9,8 @@ content:
     type: collection
     filename: "{fields.origin-title}.md"
     fields: 
-      - { name: icon-src, label: 图片图标(优先), type: image, required: false }
-      - { name: icon, label: emoji图标, type: string, required: false }
+      - { name: icon-src, label: 图片图标, type: image, required: false ,description: 首页图标 优先 }
+      - { name: icon, label: emoji图标, type: string, required: false ,description: 无图片图标时使用 两者皆无时显示🐻}
       - { name: title, label: 译名, type: string, required: true }
       - { name: origin-title, label: 原名, type: string, required: true }
       - { name: body, label: 正文, type: rich-text }
