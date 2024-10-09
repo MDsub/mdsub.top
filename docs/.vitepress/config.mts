@@ -1,17 +1,31 @@
 import { defineConfig } from 'vitepress'
+import { getSidebar } from 'vitepress-plugin-auto-sidebar'
 export default defineConfig({
 
   // 元信息
   title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
-
-  //排除collection目录，构建时ln collection/* .
-  //此步骤用于解决旧链接失效问题
-  srcExclude: ['collection/*'],
-
+  
   // 主题配置
   themeConfig: {
     
+    // 自动侧边栏
+    sidebar: getSidebar({ 
+      contentRoot: '/', 
+      contentDirs: [
+        {
+          path: 'collection',
+          title: '作品'
+        },
+        { 
+          path: 'blog',
+          title: 'blog'
+        },
+      ], 
+      useFrontmatter: true,
+      collapsible: true, 
+      collapsed: true }),
+
     // 页面配置
     logo: 'android-chrome-512x512.png',
     nav: [
@@ -77,101 +91,7 @@ export default defineConfig({
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
 
-    // 侧边栏
-    sidebar: [
-      { 
-        text: '资源',
-        collapsed: true,
-        items: [
-          { text: 'Lastman', link:'/Lastman'},
-          { text: 'Urbance', link:'/Urbance'},
-          { text: '深空69', link:'/深空69'},
-          { text: '乡下人', link:'/乡下人'},
-          { text: '机器鸡', link:'/机器鸡'},
-          { text: '梦滨城', link:'/梦滨城'},
-          { text: '钉子镇', link:'/钉子镇'},
-          { text: '波波安', link:'/pepper-ann'},
-          { text: '一家之主', link:'/一家之主'},
-          { text: '东方大学', link:'/东方大学'},
-          { text: '俗世乐土', link:'/俗世乐土'},
-          { text: '克隆高校', link:'/克隆高校'},
-          { text: '冒险兄弟', link:'/冒险兄弟'},
-          { text: '卡通乱炖', link:'/卡通乱炖'},
-          { text: '囧男窘事', link:'/囧男窘事'},
-          { text: '地狱归来', link:'/地狱归来'},
-          { text: '微笑朋友', link:'/微笑朋友'},
-          { text: '恶搞之家', link:'/恶搞之家'},
-          { text: '斧子警察', link:'/斧子警察'},
-          { text: '火星特快', link:'/火星特快'},
-          { text: '玛瑙春分', link:'/玛瑙春分'},
-          { text: '怪胎兄弟', link:'/the-freak-brothers'},
-          { text: '美国老爹', link:'/美国老爹'},
-          { text: '脆莓公园', link:'/脆莓公园'},
-          { text: '荣格危机', link:'/荣格危机'},
-          { text: '超级监狱', link:'/超级监狱'},
-          { text: '边城小镇', link:'/边城小镇'},
-          { text: '野生动物', link:'/野生动物'},
-          { text: '间谍亚契', link:'/间谍亚契'},
-          { text: '鸟人律师', link:'/鸟人律师'},
-          { text: '克里夫兰秀', link:'/克里夫兰秀'},
-          { text: '十岁的汤姆', link:'/十岁的汤姆'},
-          { text: '卡通一箩筐', link:'/卡通一箩筐'},
-          { text: '宠宝话疗团', link:'/宠宝话疗团'},
-          { text: '少年安乐死', link:'/少年安乐死'},
-          { text: '拽妹黛薇儿', link:'/拽妹黛薇儿'},
-          { text: '拾荒者统治', link:'/拾荒者统治'},
-          { text: '教会男孩儿', link:'/教会男孩儿'},
-          { text: '米神山大道', link:'/米神山大道'},
-          { text: '飞出个未来', link:'/飞出个未来'},
-          { text: '开心汉堡店', link:'/bobs-burgers'},
-          { text: '大人物拿破仑', link:'/大人物拿破仑'},
-          { text: '杰夫与外星人', link:'/杰夫与外星人'},
-          { text: '蜂妹与狗狗猫', link:'/蜂妹与狗狗猫'},
-          { text: '饮料杯历险记', link:'/饮料杯历险记'},
-          { text: '到了火星被劝退', link:'/到了火星被劝退'},
-          { text: '福是全家福的福', link:'/福是全家福的福'},
-          { text: '外星侵略者吉姆', link:'/invader-zim'},
-          { text: '银翼杀手：黑莲花', link:'/银翼杀手：黑莲花'},
-          { text: '鱿鱼仔的乡土生活', link:'/鱿鱼仔的乡土生活'},
-          { text: '鸟姐妹的反差生活', link:'/鸟姐妹的反差生活'},
-          { text: '布拉德尼利神经秀', link:'/brad-neely'},
-          { text: '卢卡斯兄弟搬家公司', link:'/卢卡斯兄弟搬家公司'},
-        ],
-      },
-      { 
-        text: '文章',
-        collapsed: true,
-        items: [
-          { text: '乡下人 第一季译后语', link:'/blog/乡下人 第一季译后语'},
-          { text: '乡下人 第一季开更通知', link:'/blog/乡下人 第一季开更通知'},
-          { text: '鸟姐妹S3 译后语', link:'/blog/鸟姐妹S3 译后语'},
-          { text: '鸟姐妹S3 开更通知', link:'/blog/鸟姐妹S3开更通知'},
-          { text: '克隆高校 第二季译后语', link:'/blog/克隆高校 第二季译后语'},
-          { text: '微笑朋友 第一季译后语', link:'/blog/微笑朋友 第一季译后语'},
-          { text: '克隆高校 第二季开更通知', link:'/blog/克隆高校 第二季开更通知'},
-          { text: '间谍亚契 第十二季译后语', link:'/blog/间谍亚契 第十二季译后语'},
-          { text: '恶搞之家 第二十季开更通知', link:'/blog/恶搞之家 第二十季开更通知'},
-          { text: '间谍亚契 第十二季开更通知', link:'/blog/间谍亚契 第十二季开更通知'},
-          { text: '间谍亚契 第一季重译开更通知', link:'/blog/间谍亚契 第一季重译开更通知'},
-          { text: '十岁的汤姆 第一季译后语', link:'/blog/十岁的汤姆 第一季译后语'},
-          { text: '少年安乐死 第一季译后语', link:'/blog/少年安乐死 第一季译后语'},
-          { text: '十岁的汤姆 第一季开更通知', link:'/blog/十岁的汤姆 第一季开更通知'},
-          { text: '少年安乐死 第一季开更通知', link:'/blog/少年安乐死 第一季开更通知'},
-          { text: '教会男孩儿 第二季开更通知', link:'/blog/教会男孩儿 第二季开更通知'},
-          { text: '到了火星被劝退 第一季开更通知', link:'/blog/到了火星被劝退 第一季开更通知'},
-          { text: '鸟姐妹的反差生活 第二季译后语', link:'/blog/鸟姐妹的反差生活 第二季译后语'},
-          { text: '鱿鱼仔的乡土生活 第12季译后语', link:'/blog/鱿鱼仔的乡土生活 第十二季译后语'},
-          { text: '鱿鱼仔的乡土生活 第13季开更语', link:'/blog/鱿鱼仔的乡土生活 第十三季开更通知'},
-          { text: '鱿鱼仔的乡土生活 第13季译后语', link:'/blog/鱿鱼仔的乡土生活 第十三季译后语'},
-          { text: '关于漫迪字幕组组织调整的说明', link:'/blog/关于「漫迪字幕组」组织调整的说明'},
-          { text: '分享微笑朋友里几个译名的翻译', link:'/blog/分享「微笑朋友」里几个译名的翻译'},
-          { text: '关于退出《银翼杀手：黑莲花》译制的说明', link:'/blog/关于退出《银翼杀手：黑莲花》译制的说明'},
-        ]
-       },
-       { text: '📺 在线MDpan', link:'https://pan.mdsub.top'},
-       { text: '🧰 字幕教程和工具', link:'https://tutorial.mdsub.top/'},
-       { text: '👁️ 微博@漫迪MDsub', link:'https://weibo.com/u/2355632031'},
-    ],
+  // end of theme config
   },
 
   // 重定向 去除链接中的*/collection以保证旧微博链接可用
