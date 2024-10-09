@@ -3,25 +3,16 @@ media:
   output: /assets
   
 content:
-  - name: homepage
-    label: 主页
-    path: docs/index.md
-    type: file
-    
-  - name: config
-    label: 网站配置
-    path: docs/.vitepress/config.mts
-    type: file
-    format: toml
-    
   - name: collection
     label: 作品资源页面
     path: docs/collection
     type: collection
     filename: "{fields.origin-title}.md"
     fields: 
-      - { name: title, label: 译名（前台显示）, type: string, required: true }
-      - { name: origin-title, label: 原名(用于文件名和链接 必须英文字符), type: string, required: true }
+      - { name: title, label: 译名, type: string, required: true }
+      - { name: origin-title, label: 原名, type: string, required: true }
+      - { name: icon-src, label: 图片图标(优先), type: image, required: false }
+      - { name: icon, label: emoji图标, type: string, required: false }
       - { name: body, label: 正文, type: rich-text }
       
   - name: blog

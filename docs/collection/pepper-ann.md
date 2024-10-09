@@ -1,6 +1,8 @@
 ---
 title: 波波安
 origin-title: Pepper Ann
+icon:
+icon-src: /assets/icon/pepper-ann.png
 ---
 # 波波安
 

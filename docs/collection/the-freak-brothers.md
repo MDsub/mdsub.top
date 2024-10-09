@@ -1,6 +1,8 @@
 ---
 title: 怪胎兄弟
 origin-title: the freak brothers
+icon:
+icon-src: /assets/icon/cannabis.png
 ---
 # 怪胎兄弟
 

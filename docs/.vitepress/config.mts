@@ -1,15 +1,17 @@
-import { defineConfig } from 'vitepress'
-import { getSidebar } from 'vitepress-plugin-auto-sidebar'
-export default defineConfig({
+import { defineConfig } from 'vitepress';
+import { getSidebar } from 'vitepress-plugin-auto-sidebar';
+import fs from 'fs';
+import path from 'path';
+import matter from 'gray-matter';
+import { fileURLToPath } from 'url';
 
+export default defineConfig({
   // 元信息
   title: "漫迪小站 | mdsub.top",
   description: "漫迪字幕组 | We ♥️ Cartoons",
   
   // 主题配置
   themeConfig: {
-    
-    // 自动侧边栏
     sidebar: getSidebar({ 
       contentRoot: '/', 
       contentDirs: [
@@ -24,9 +26,9 @@ export default defineConfig({
       ], 
       useFrontmatter: true,
       collapsible: true, 
-      collapsed: true }),
+      collapsed: true 
+    }),
 
-    // 页面配置
     logo: 'android-chrome-512x512.png',
     nav: [
       { text: '🏠 首页', link: '/' },
@@ -40,7 +42,6 @@ export default defineConfig({
       message: '<a href="https://spcnwikia.top/">🥚</a>',
     },
 
-    // 启用搜索与中文化
     search: {
       provider: 'local',
       options: {
@@ -66,7 +67,6 @@ export default defineConfig({
       }
     },
 
-    // disable docfooter
     docFooter: {
       prev: false,
       next: false
@@ -90,15 +90,84 @@ export default defineConfig({
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
-
-  // end of theme config
   },
 
-  // sitemap
   sitemap: {
     hostname: 'https://mdsub.top'
   },
 
-  // 简洁链接
   cleanUrls: true,
-})
+
+  // Vite 插件配置
+  vite: {
+    ssr: {
+      noExternal: ['vitepress-plugin-auto-sidebar'] // 允许外部模块使用
+    },
+    plugins: [
+      {
+        name: 'update-index-features',
+
+        // 提早执行 updateFeatures
+        config() {
+          updateFeatures();  // 这里提早调用
+        },
+
+        handleHotUpdate({ file }) {
+          if (file.endsWith('.md') && file.includes('/collection/')) {
+            updateFeatures();
+          }
+        },
+
+        buildEnd() {
+          updateFeatures();
+        }
+      }
+    ]
+  }
+});
+
+// 使用 import.meta.url 获取当前目录路径
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+function updateFeatures() {
+  const collectionDir = path.join(__dirname, '../collection');
+  const indexFilePath = path.join(__dirname, '../index.md');
+
+  const files = fs.readdirSync(collectionDir).filter(file => file.endsWith('.md'));
+
+  const features = files.map(file => {
+    const filePath = path.join(collectionDir, file);
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const { data } = matter(fileContent);
+
+    let icon = '';
+    if (data['icon-src'] && data['icon-src'].trim()) {
+      // 当 icon-src 不为空时，使用对象格式
+      icon = {
+        src: data['icon-src']
+      };
+    } else if (data.icon && data.icon.trim()) {
+      // 当 icon 存在时，使用 icon 的值
+      icon = data.icon;
+    } else {
+      // 当 icon-src 和 icon 都为空时，使用 ❤️
+      icon = '🐻';
+    }
+
+    return {
+      title: data['title'],
+      link: `/collection/${file.replace('.md', '')}`,
+      icon: icon // 设置 icon
+    };
+  });
+
+  // 读取并更新 index.md
+  let indexContent = fs.readFileSync(indexFilePath, 'utf-8');
+  const indexMatter = matter(indexContent);
+  indexMatter.data.features = features;
+
+  const newIndexContent = matter.stringify(indexMatter.content, indexMatter.data);
+  fs.writeFileSync(indexFilePath, newIndexContent, 'utf-8');
+
+  console.log('index.md 更新完成！');
+}
