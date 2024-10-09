@@ -9,10 +9,10 @@ origin-title: Super Mansion
 
 ## 📺 剧集资源
 
-### 第一季
+### 第一季 <Badge type="tip" text="电波字幕组" />
 
 [☁️百度](https://pan.baidu.com/s/1VbRX-hX0eJaSqIABV0FUxQ?pwd=juca)
 
-### 第二季
+### 第二季 <Badge type="tip" text="电波字幕组" />
 
 [☁️百度](https://pan.baidu.com/s/14EAIjjW8hyhcHn50XtwF4g?pwd=z07o)
