@@ -12,9 +12,6 @@ hero:
     - theme: alt
       text: "\U0001F9F0 字幕教程和工具"
       link: 'https://tutorial.mdsub.top/'
-    - theme: alt
-      text: "\U0001F4D2 文章"
-      link: /collection/blog/乡下人 第一季译后语
 features:
   - title: Lastman
     link: /collection/Lastman
