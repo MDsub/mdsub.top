@@ -26,7 +26,7 @@ export default defineConfig({
       ], 
       useFrontmatter: true,
       collapsible: true, 
-      collapsed: true 
+      collapsed: false 
     }),
 
     logo: 'android-chrome-512x512.png',

@@ -27,7 +27,7 @@ features:
   - title: 开心汉堡店
     link: /collection/bobs-burgers
     icon:
-      src: /assets/icon/bobsicon.png
+      src: /assets/icon/template-sticker-600x600.png
   - title: 布拉德尼利神经秀
     link: /collection/brad-neely
     icon:
@@ -36,14 +36,33 @@ features:
     link: /collection/invader-zim
     icon:
       src: /assets/icon/InvaderZim.png
+  - title: 小恶魔
+    link: /collection/little-demon
+    icon:
+      src: /assets/icon/littledemonlogo.jpg
+  - title: 万神殿
+    link: /collection/pantheon
+    icon:
+      src: /assets/icon/pantheon-logo.jpg
   - title: 波波安
     link: /collection/pepper-ann
     icon:
       src: /assets/icon/pepper-ann.png
+  - title: 超级豪宅
+    link: /collection/super-mansion
+    icon:
+      src: /assets/icon/SuperMansion.png
   - title: 怪胎兄弟
     link: /collection/the-freak-brothers
     icon:
       src: /assets/icon/cannabis.png
+  - title: 颤抖的真相
+    link: /collection/the-shivering-truth
+    icon: "\U0001F480"
+  - title: 乐活姐妹
+    link: /collection/yolo
+    icon:
+      src: /assets/icon/yolo-logo.png
   - title: 一家之主
     link: /collection/一家之主
     icon:
