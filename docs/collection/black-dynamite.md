@@ -5,7 +5,7 @@ origin-title: Black Dynamite
 ---
 # 黑色炸药
 
-![](/assets/image/YOLO.jpg)![](/assets/image/%E9%BB%91%E8%89%B2%E7%82%B8%E8%8D%AF.jpg)
+![](/assets/image/%E9%BB%91%E8%89%B2%E7%82%B8%E8%8D%AF.jpg)
 
 ### 📺 资源 <Badge type="tip" text="冰棒青虫" />
 
