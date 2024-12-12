@@ -23,3 +23,12 @@ content:
     fields: 
       - { name: title, label: 标题, type: string, required: true }
       - { name: body, label: 正文, type: rich-text }
+      
+  - name: tutorial
+    label: 教程
+    path: docs/tutorial
+    type: collection
+    filename: "{fields.title}.md"
+    fields: 
+      - { name: title, label: 标题, type: string, required: true }
+      - { name: body, label: 正文, type: rich-text }
