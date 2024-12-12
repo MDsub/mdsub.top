@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/af439817-1d01-4dab-95b7-ea7f5bc1b179)---
+---
 icon-src: /assets/icon/catbug.png
 title: 无畏战士
 origin-title: Bravest Warriors

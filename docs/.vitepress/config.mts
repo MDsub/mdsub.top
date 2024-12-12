@@ -23,6 +23,10 @@ export default defineConfig({
           path: 'blog',
           title: '文章'
         },
+        { 
+          path: 'tutorial',
+          title: '教程（施工中）'
+        },
       ], 
       useFrontmatter: true,
       collapsible: true, 

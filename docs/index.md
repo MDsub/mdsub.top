@@ -21,6 +21,9 @@ features:
     link: /collection/Urbance
     icon:
       src: /assets/icon/Urbance.webp
+  - title: 黑色炸药
+    link: /collection/black-dynamite
+    icon: "\U0001F4A5"
   - title: 开心汉堡店
     link: /collection/bobs-burgers
     icon:
@@ -29,6 +32,14 @@ features:
     link: /collection/brad-neely
     icon:
       src: /assets/icon/bradicon.png
+  - title: 无畏战士
+    link: /collection/bravest-warriors
+    icon:
+      src: /assets/icon/catbug.png
+  - title: 恐龙家族
+    link: /collection/dinosaurs
+    icon:
+      src: /assets/icon/dinosaurs-icon.png
   - title: 外星侵略者吉姆
     link: /collection/invader-zim
     icon:
