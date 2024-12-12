@@ -11,7 +11,7 @@ hero:
       link: 'https://pan.mdsub.top'
     - theme: alt
       text: "\U0001F9F0 字幕教程和工具"
-      link: 'https://tutorial.mdsub.top/'
+      link: 'tutorial/新手入门/00.新手资源包.md'
 features:
   - title: Lastman
     link: /collection/Lastman
