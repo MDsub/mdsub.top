@@ -47,7 +47,7 @@ export default defineConfig({
       text: '在 Github 上编辑此页面'
     },
     footer: {
-      message: '<a href="https://spcnwiki-my.sharepoint.com/personal/public_spcnwikia_tk/_layouts/15/onedrive.aspx">🥚</a>',
+      message: '<a href="https://sp.tearemix.com/">🥚</a>',
     },
 
     search: {
