@@ -2,6 +2,7 @@
 icon-src: /assets/icon/catbug.png
 title: 无畏战士
 origin-title: Bravest Warriors
+sort: 99
 ---
 # 无畏战士
 
