@@ -21,11 +21,11 @@ export default defineConfig({
         },
         { 
           path: 'blog',
-          title: '文章'
+          title: '漫迪文章'
         },
         { 
           path: 'tutorial',
-          title: '教程（施工中）'
+          title: '字幕教程'
         },
       ], 
       useFrontmatter: true,
