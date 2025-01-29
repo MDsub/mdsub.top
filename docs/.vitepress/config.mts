@@ -47,7 +47,7 @@ export default defineConfig({
       text: '在 Github 上编辑此页面'
     },
     footer: {
-      message: '<a href="https://sp.tearemix.com/">🥚</a>',
+      message: '<a href="https://spcnwikia.tk/">🥚</a>',
     },
 
     search: {
