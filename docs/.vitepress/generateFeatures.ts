@@ -12,9 +12,11 @@ export function generateFeatures(collectionDir: string, featureFile: string) {
       return {
         title: data.title,
         link: `/collection/${file.replace('.md', '')}`,
-        icon: data['icon-src'] ? { src: data['icon-src'] } : data.icon
+        icon: data['icon-src'] ? { src: data['icon-src'] } : data.icon,
+        sort: data.sort ?? 0
       };
-    });
+    })
+    .sort((a, b) => b.sort - a.sort || a.title.localeCompare(b.title)); // 按 sort 字段排序，缺少 sort 字段视为 0，按文件名排序
 
   const featuresContent = `features:\n${features.map(feature => `
   - title: ${feature.title}
