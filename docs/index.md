@@ -11,7 +11,7 @@ hero:
       link: 'https://pan.mdsub.top'
     - theme: alt
       text: "\U0001F9F0 字幕教程和工具"
-      link: tutorial/新手入门/00.新手资源包.md
+      link: /tutorial/1.字幕教程首页
 features:
   - title: Lastman
     link: /collection/Lastman
@@ -56,6 +56,13 @@ features:
     link: /collection/pepper-ann
     icon:
       src: /assets/icon/pepper-ann.png
+  - title: 红鼻子驯鹿鲁道夫 1964
+    link: /collection/rudolph-the-red-nosed-reindeer
+    icon: "\U0001F384"
+  - title: 深海研究所2021
+    link: /collection/sealab-2021
+    icon:
+      src: /assets/icon/poster.png
   - title: 超级豪宅
     link: /collection/super-mansion
     icon:
