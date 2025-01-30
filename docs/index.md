@@ -12,6 +12,9 @@ hero:
     - theme: alt
       text: "\U0001F9F0 字幕教程和工具"
       link: /tutorial/1.字幕教程首页
+    - theme: alt
+      text: "🧲 BT磁力链接"
+      link: /magnet
 <!--@include: ./features.md-->
 ---
 
