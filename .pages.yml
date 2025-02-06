@@ -13,7 +13,7 @@ content:
       - { name: icon, label: emoji图标, type: string, required: false ,description: 无图片图标时使用 两者皆无时显示🐻}
       - { name: title, label: 译名, type: string, required: true }
       - { name: origin-title, label: 原名, type: string, required: true }
-      - { name: sort, label: 排序, type: number, required: false ,description: 99999-0 数字越大首页排序越靠前}
+      - { name: sort, label: 排序, type: number, default: 100, required: false ,description: 99999-0 数字越大首页排序越靠前}
       - { name: body, label: 正文, type: rich-text }
       
   - name: blog
