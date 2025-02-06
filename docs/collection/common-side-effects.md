@@ -2,7 +2,7 @@
 icon: 🍄‍🟫
 title: 常见副作用
 origin-title: Common Side Effects
-sort: -2
+sort: 100
 ---
 # 常见副作用
 
