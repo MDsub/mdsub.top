@@ -17,6 +17,12 @@ features:
     icon: 
       src: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
 
+  - title: Alist
+    details: TailScale 速度慢 安装TS客户端可变飞快
+    link: https://mdlist.jacob-mohs.ts.net/
+    icon: 
+      src: https://cdn.jsdelivr.net/gh/alist-org/logo@main/logo.svg
+
   - title: IPv6测试
     details: 测试通过的话就可以用可上传Alist
     link: https://test-ipv6.csclub.uwaterloo.ca/index.html.zh_CN
