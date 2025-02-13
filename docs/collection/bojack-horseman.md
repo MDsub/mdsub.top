@@ -1,5 +1,5 @@
 ---
-icon-src: /assets/icon/8880643-middle.png
+icon-src: /assets/icon/8880643-middle-1.png
 title: 马男波杰克
 origin-title: Bojack Horseman
 sort: 90
