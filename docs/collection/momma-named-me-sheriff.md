@@ -2,7 +2,7 @@
 icon-src: /assets/微信截图_20250418122846.png
 title: 妈妈叫我警长
 origin-title: Momma Named Me Sheriff
-sort: 100
+sort: 90
 ---
 # 妈妈叫我警长
 
