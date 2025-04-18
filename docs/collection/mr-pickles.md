@@ -1,8 +1,8 @@
 ---
-icon-src: /assets/微信截图_20250418122553.png
+icon: 🥒
 title: 腌黄瓜先生
 origin-title: Mr Pickles
-sort: 100
+sort: 91
 ---
 # 腌黄瓜先生
 
