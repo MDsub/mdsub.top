@@ -10,4 +10,4 @@ sort: 91
 
 ### 📺 资源 <Badge type="tip" text="YYeTs人人字幕组" />
 
-[☁️百度](https://pan.baidu.com/s/1G5ueHMBVhvzwQj9k04_aiw?pwd=hthw#list/path=%2F) [☁️阿里](https://www.alipan.com/s/n5WrbAhqn6k) [☁️夸克](https://pan.quark.cn/s/9aef4e80b855) [☁️迅雷](https://pan.xunlei.com/s/VOO6m-HRrot0Lpl1JZzdg_J4A1?pwd=7np9#) [📺MDpan](https://pan.mdsub.top/%E8%85%8C%E9%BB%84%E7%93%9C%E5%85%88%E7%94%9F)
+[☁️夸克](https://pan.quark.cn/s/9aef4e80b855) [☁️迅雷](https://pan.xunlei.com/s/VOO6m-HRrot0Lpl1JZzdg_J4A1?pwd=7np9#) [📺MDpan](https://pan.mdsub.top/%E8%85%8C%E9%BB%84%E7%93%9C%E5%85%88%E7%94%9F)
