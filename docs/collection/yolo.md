@@ -2,11 +2,12 @@
 icon-src: /assets/icon/yolo-logo.png
 title: 乐活姐妹
 origin-title: YOLO
+sort: 100
 ---
 # 乐活姐妹
 
 ![](/assets/image/YOLO.jpg)
 
-### 📺 资源 <Badge type="tip" text="YYeTs字幕组" /> <Badge type="tip" text="小寒压制" />  <Badge type="warning" text="漫迪字幕组" />
+### 📺 资源
 
-[☁️百度](https://pan.baidu.com/s/1IctRTCGcxy_oyhj-a_coEw?pwd=71fn) [☁️阿里](https://www.alipan.com/s/UigUxLNuG7X) [☁️夸克](https://pan.quark.cn/s/276c55797bd1) [☁️迅雷](https://pan.xunlei.com/s/VO9id6haUkrb9GV4hUqCY33XA1?pwd=5wsv# ) [📺MDpan](https://pan.mdsub.top/%E4%B9%90%E6%B4%BB%E5%A7%90%E5%A6%B9)
+[☁️百度](https://pan.baidu.com/s/1FzHK7EMf-NdhZOZV6kgYqw?pwd=u1n8) [☁️阿里](https://www.alipan.com/s/ffyae2vYgQu) [☁️夸克](https://pan.quark.cn/s/44e6f8c14c48) [☁️迅雷](https://pan.xunlei.com/s/VOOI3UTODEQcHd-n40zUGrg1A1?pwd=fait#) [📺MDpan](https://pan.mdsub.top/%E6%8A%B9%E5%8E%BB%E9%87%8D%E6%9D%A5)
