@@ -1,6 +1,6 @@
 ---
 icon: 🧠
-title: 抹去重来/未了之事
+title: 抹去重来
 origin-title: Undone
 sort: 80
 ---
