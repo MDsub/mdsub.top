@@ -1,5 +1,5 @@
 ---
-icon-src: /assets/images.png
+icon: 📕
 title: 霍比特人
 origin-title: The Hobbit
 sort: 80
