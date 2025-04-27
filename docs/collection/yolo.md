@@ -10,4 +10,4 @@ sort: 100
 
 ### 📺 资源
 
-[☁️百度](https://pan.baidu.com/s/1FzHK7EMf-NdhZOZV6kgYqw?pwd=u1n8) [☁️阿里](https://www.alipan.com/s/ffyae2vYgQu) [☁️夸克](https://pan.quark.cn/s/44e6f8c14c48) [☁️迅雷](https://pan.xunlei.com/s/VOOI3UTODEQcHd-n40zUGrg1A1?pwd=fait#) [📺MDpan](https://pan.mdsub.top/%E6%8A%B9%E5%8E%BB%E9%87%8D%E6%9D%A5)
+[☁️百度](https://pan.baidu.com/s/1CRy8FLTz531lS8WWax87fg?pwd=6jer) [☁️阿里](https://www.alipan.com/s/rMBYJcyz9w6) [☁️夸克](https://pan.quark.cn/s/a029f28f2909) [☁️迅雷](https://pan.xunlei.com/s/VOOrakZPdxoVSJw1VI9kJAq4A1?pwd=dj8f#) [📺MDpan](https://pan.mdsub.top/%E4%B9%90%E6%B4%BB%E5%A7%90%E5%A6%B9)
