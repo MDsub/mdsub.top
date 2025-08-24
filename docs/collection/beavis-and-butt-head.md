@@ -1,6 +1,6 @@
 ---
-icon-src: /assets/icon/Beavis_and_Butt-Head_-_logo_29 (1).png
-title: 瘪四与大头大脑
+icon-src: /assets/icon/Beavis.png
+title: 瘪四与大头蛋
 origin-title: Beavis and Butt-head
 sort: 108
 ---
