@@ -10,7 +10,7 @@ sort: 108
 
 * * *
 
-> 本版资源已删减评论部分 仅保留剧情
+> 本版资源已删减评论部分 仅保留剧情部分
 
 **📺 剧集资源** <Badge type="warning" text="漫迪MDsub" /> <Badge type="tip" text="B站up@游锅子" />
 
