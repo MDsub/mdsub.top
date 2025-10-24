@@ -1,5 +1,5 @@
 ---
-icon-src: /assets/icon/280px-Adventure_Time_logo.png
+icon: 🗡️
 title: 探险时光
 origin-title: Adventure Time
 sort: 100
