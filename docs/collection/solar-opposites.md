@@ -9,6 +9,7 @@ sort: 100
 ![](/assets/image/p22198046_b_h8_aa.jpg)
 
 ----
+> 第六季译者不详 敬请网友私信漫迪告知
 
 ### 📺 剧集资源 <Badge type="tip" text="深影字幕组" /> <Badge type="tip" text="冷心铁男" /> <Badge type="tip" text="NEW字幕组" /> <Badge type="tip" text="擦枪字幕组" /> <Badge type="tip" text="不知名压制小人" /> <Badge type="tip" text="官方字幕" />
 
