@@ -4,7 +4,7 @@ title: 变形小雷
 origin-title: Generator Rex
 sort: 10
 ---
-# 万神殿
+# 变形小雷
 
 ![](/assets/image/482674.jpg)
 
