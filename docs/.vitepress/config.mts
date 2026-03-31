@@ -40,7 +40,8 @@ export default defineConfig({
     logo: 'android-chrome-512x512.png',
     nav: [
       { text: '🏠 首页', link: '/' },
-      { text: '👁️ 微博', link: 'https://weibo.com/u/2355632031' }
+      { text: '👁️ 微博', link: 'https://weibo.com/u/2355632031' },
+      { text: '🫂 加入我们', link: 'https://weibo.com/2355632031/QyDLGaYEJ' }
     ],
     editLink: {
       pattern: 'https://github.com/mdsub/mdsub.top/edit/main/docs/:path',
