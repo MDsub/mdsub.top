@@ -47,12 +47,10 @@ export default defineConfig({
       text: '在 Github 上编辑此页面'
     },
     footer: {
-      message: `<div style="word-break: break-all; line-height: 1.8; padding: 16px 0; text-align: center; font-size: 14px;">
-  <a href="https://dm.xueximeng.com/" target="_blank" rel="noopener noreferrer">美漫资源共建</a>　
+      message: `<a href="https://dm.xueximeng.com/" target="_blank" rel="noopener noreferrer">美漫资源共建</a>　
   <a href="https://weibo.com/5487050770" target="_blank" rel="noopener noreferrer">百特丸</a>　
   <a href="https://www.kangfuzhongx.in/" target="_blank" rel="noopener noreferrer">康复小站</a>　
-  <a href="https://www.chaospace.cc/" target="_blank" rel="noopener noreferrer">小寒压制组</a>
-</div>`
+  <a href="https://www.chaospace.cc/" target="_blank" rel="noopener noreferrer">小寒压制组</a>`
     },
 
     search: {
