@@ -1,6 +1,7 @@
 ---
 title: 嘻哈熊男
 origin-title: Chozen
+icon: 🐻
 sort: 100
 ---
 # 嘻哈熊男
