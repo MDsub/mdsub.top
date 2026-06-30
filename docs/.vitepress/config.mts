@@ -24,7 +24,7 @@ export default defineConfig({
         },
         { 
           path: 'blog',
-          title: '漫迪文章'
+          title: '美国成人动画清单'
         },
         { 
           path: 'tutorial',
