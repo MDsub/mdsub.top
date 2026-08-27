@@ -8,7 +8,7 @@ sort: 100
 
 ![](/assets/image/8c68179fly1igidj5bvy1j21xg132ni9.jpg)
 
-> 本资源含弗兰克尔达试播集、剧集《弗兰克尔达的幽灵之书》及电影《怪诞鬼作家》。
+> 本资源含试播集、剧集《弗兰克尔达的幽灵之书》及电影《怪诞鬼作家》。
 
 ### 📺️剧集资源 <Badge type="tip" text="动画学术趴" /> <Badge type="warning" text="漫迪MDsub" /> <Badge type="tip" text="NF官方中字" />
 
