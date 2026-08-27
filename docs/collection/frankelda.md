@@ -1,6 +1,6 @@
 ---
 icon: 📕
-title: 弗兰克尔达全系列
+title: 弗兰克尔达
 origin-title: Frankelda
 sort: 100
 ---
