@@ -4,7 +4,7 @@ title: 疯狂店员
 origin-title: The Clerks
 sort: 100
 ---
-# 疯狂店员
+# 疯狂店员 <Badge type="warning" text="漫迪MDsub" />
 
 ![](/assets/image/Clerks-The-Animated-Series.jpg)
 
