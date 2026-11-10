@@ -4,7 +4,7 @@ title: 鸢尾花
 origin-title: Fleur de Lis
 sort: 100
 ---
-# 鸢尾花
+# 鸢尾花 <Badge type="tip" text="B站@枕边的话" />
 
 ![](/assets/image/ScreenShot_2026-11-10_232354_953.png)
 
