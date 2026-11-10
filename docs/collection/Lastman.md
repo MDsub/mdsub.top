@@ -11,7 +11,7 @@ icon: ☹️
 如资源失效，请前往 [@漫迪MDsub](https://weibo.com/weheartcartoons) 置顶微博获取度盘压缩包
 :::
 
-### 📺 剧集资源
+### 📺 作品资源
 
 **第一季** <Badge type="warning" text="漫迪MDsub" />
 
