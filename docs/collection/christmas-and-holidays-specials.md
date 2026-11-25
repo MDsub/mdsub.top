@@ -31,6 +31,5 @@ sort: 100
 - Jack Frost (1979)
 - Rudolph and Frosty's Christmas in July (1979)
 - Pinocchio's Christmas (1980)
-- Frosty Returns (1992)
 - A Miser Brothers' Christmas (2008)
 
