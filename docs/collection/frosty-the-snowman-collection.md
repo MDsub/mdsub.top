@@ -12,7 +12,7 @@ sort: 100
 
 ### 📺 剧集资源 <Badge type="warning" text="漫迪MDsub" />
 
-[☁️百度](https://pan.baidu.com/s/1w3Qbku64CyqhvdwmMfb7og?pwd=bbqr) [☁️阿里](https://www.alipan.com/s/k1nKjKd2udm) [☁️夸克](https://pan.quark.cn/s/a8ff6ebae238) [☁️迅雷](https://pan.xunlei.com/s/VOeuRHXIRguu7aCLksz1Zm0RA1?pwd=8a9d#) [📺MDpan](https://pan.mdsub.top/%E9%9B%AA%E4%BA%BA%E5%86%AC%E5%86%AC%E8%8A%82%E6%97%A5%E5%90%88%E9%9B%86)
+[☁️百度](https://pan.baidu.com/s/1w3Qbku64CyqhvdwmMfb7og?pwd=bbqr) [☁️阿里](https://www.alipan.com/s/k1nKjKd2udm) [☁️夸克](https://pan.quark.cn/s/a8ff6ebae238) [☁️迅雷](https://pan.xunlei.com/s/VOeuRHXIRguu7aCLksz1Zm0RA1?pwd=8a9d#) [📺MDpan](https://pan.mdsub.top/%E5%9C%A3%E8%AF%9E%E8%80%81%E5%8A%A8%E7%94%BB%E5%90%88%E9%9B%86)
 
 ### 📺 剧集清单
 
