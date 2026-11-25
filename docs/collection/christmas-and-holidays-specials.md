@@ -8,7 +8,7 @@ sort: 100
 
 ![](/assets/image/Rankin-Bass-characters-344.jpg)
 
-### 📺 剧集资源
+### 📺 剧集资源 <Badge type="warning" text="漫迪MDsub" />
 
 [☁️百度](https://pan.baidu.com/s/1XNVyKAUiPGqeaEeR1ErfNQ?pwd=3drw) [☁️阿里](https://www.alipan.com/s/2xidVC9jLKW) [☁️夸克](https://pan.quark.cn/s/2b78920cfd78) [☁️迅雷](https://pan.xunlei.com/s/VP7Fz5Bfr0j5x_GxHhV0ZG0WA1?pwd=v6di#) [📺MDpan](https://pan.mdsub.top/%E5%9C%A3%E8%AF%9E%E8%80%81%E5%8A%A8%E7%94%BB%E5%90%88%E9%9B%86)
 
